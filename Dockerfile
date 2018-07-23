@@ -8,4 +8,6 @@ LABEL Version="1.0.0"
 
 RUN apt-get update -yqq \
     vim
-    
+
+RUN apt-get install -yqq \
+	php7.1-xdebug \
