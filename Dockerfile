@@ -5,6 +5,7 @@ LABEL Vendor="fubolg"
 LABEL Description="PHP-FPM v7.1"
 LABEL Version="1.0.0"
 
+RUN apt-get update -y
 
 RUN apt-get install -yqq \
     vim
