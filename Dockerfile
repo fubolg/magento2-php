@@ -11,4 +11,4 @@ RUN apt-get install -yqq \
     vim
 
 RUN apt-get install -yqq \
-	php7-xdebug \
+	php7.0-xdebug \
