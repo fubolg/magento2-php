@@ -17,4 +17,7 @@ RUN apt-get install -yqq \
     vim
 
 RUN apt-get install -yqq \
-	php7.0-xdebug \
+	php7.0-xdebug
+
+RUN rm /etc/php/7.0/mods-available/xdebug.ini \
+    && rm /etc/php/7.0/fpm/conf.d/20-xdebug.ini
